@@ -1,0 +1,70 @@
+body {
+  background: rgb(14, 149, 108);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+input {
+  width: 140px;
+  padding: 5px 10px;
+  border: none;
+  margin: 0 20px;
+  outline: none;
+  border-radius: 10px;
+}
+button {
+  width: 80px;
+  background: palegoldenrod;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: green;
+}
+img {
+  width: 200px;
+}
+.messi {
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.list div {
+  list-style: none;
+  width: 380px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* flex-direction: column; */
+  background: #000;
+  padding: 0 20px;
+  color: gray;
+  margin: 10px 0;
+  color: white;
+}
+.bilal {
+  width: 90%;
+}
+.mg {
+  margin-bottom: 50px;
+}
+.lempard {
+  display: flex;
+}
